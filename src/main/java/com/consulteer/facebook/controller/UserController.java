@@ -50,7 +50,7 @@ public class UserController {
                                               @RequestParam("size") int size, @RequestParam("sort") boolean sort, @RequestParam("year") Long year) {
         Page<Post> result = postService.findAllPageable(userId, page, size, sort);
 
-        return ResponseEntity.ok(result);
+        return ResponseEntity.ok(result);////kmlkm
     }
 }
 
