@@ -16,7 +16,12 @@ public class PostController {
     public Integer likePost(@PathVariable("id") Long id) {
         return postService.likePost(id);
 
-
+//    @PostMapping("/postId/like")
+//            public String likedPost(@PathVariable ("postLikedId") Long postLikedId) {
+//        return postService.likedPost(id);
+//
+//
+//        }
 
     }
 

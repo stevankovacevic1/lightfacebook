@@ -14,6 +14,8 @@ public interface PostService {
 
     Page<Post> findAllPageable(Long userId, int page, int size, boolean sort);
 
+    int likedPost (long postLikedId);///****
+
 
 
 }
